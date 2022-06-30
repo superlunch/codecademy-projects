@@ -1,0 +1,20 @@
+const myAge = 23;
+// my age
+
+let earlyYears = 2;
+// developmental stage of dog's life
+
+earlyYears *= 10.5;
+
+let laterYears = myAge - 2;
+// post-developmental stage of dog's life
+
+laterYears *= 4;
+// number of dog years accounted for by my later years
+
+let myAgeInDogYears = earlyYears + laterYears;
+let myName = "Scout";
+
+console.log(
+  `My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`
+);
