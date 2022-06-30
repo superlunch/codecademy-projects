@@ -1,0 +1,19 @@
+// forecast today in K
+const kelvin = 283;
+
+// forecast today in C
+let celsius = kelvin - 273;
+
+// forecast in Newton scale
+let newton = celsius * (33 / 100);
+
+// rounded down
+newton = Math.floor(newton);
+
+// forecast today in F
+let fahrenheit = celsius * (9 / 5) + 32;
+
+// rounded down
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${newton} degrees Newton, ${kelvin} degrees Kelvin, ${celsius} degrees Celsius, and ${fahrenheit} degrees Fahrenheit.`);
