@@ -1,0 +1,39 @@
+let userName = "Bobbie";
+
+userName
+  ? console.log(`Hello, ${userName}! 
+Ask me a birthday question:`)
+  : console.log("Hello!");
+
+console.log("");
+
+const userQuestion = " >> Am I genuinely ready to be married?";
+
+console.log(userQuestion);
+
+console.log("");
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = "";
+if (randomNumber === 0) {
+  console.log("Your life is totally prepared for a gigantic change right now!");
+} else if (randomNumber === 1) {
+  console.log("You're a troubled person.");
+} else if (randomNumber === 2) {
+  console.log("You don't have the notes.");
+} else if (randomNumber === 3) {
+  console.log("Pack it up, Katrina.");
+} else if (randomNumber === 4) {
+  console.log("Not in that jumpsuit!");
+} else if (randomNumber === 5) {
+  console.log("I mean, when you've got friends like yours...");
+} else if (randomNumber === 6) {
+  console.log("That's the BEST.");
+} else if (randomNumber === 7) {
+  console.log("Does anyone still wear a hat?");
+} else {
+  console.log("ERROR: Bernadette is in the audience.");
+}
+
+console.log(eightBall);
